@@ -33,15 +33,19 @@ a{
     word-spacing: 5px;
 }
 
+.deskripsi-home{
+    width: 1000px; 
+    text-align: justify;
+}
+
 .main-header
 { 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     background-color: #B8CBD9;
     color: #1A2946;
-    width: 100%;
+    width: auto;
     top: 0px;
     height: 60px;
     box-shadow:0px -5px 10px 0px #1A2946;
@@ -134,6 +138,14 @@ nav>a {
 }
 .profile-main{
     margin-top: 100px;
+}
+
+.p-profile{
+    width: 800px;
+}
+
+.p-project{
+    width: 800px;
 }
 
 .profile-content-left{
@@ -345,3 +357,5 @@ nav>a {
 footer{
     text-align: center;
 }
+
+
